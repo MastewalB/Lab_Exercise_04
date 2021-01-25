@@ -14,8 +14,8 @@ let account2 = {
 };
 
 
-account1.firstName = prompt("Enter your first name.");
-account1.lastName = prompt("Enter your second name.");
+account1.firstName = prompt("Enter your First name:");
+account1.lastName = prompt("Enter your Second name:");
 account1.bank_number = 2345;
 account1.balance = 0;
 account2.balance = 0;
