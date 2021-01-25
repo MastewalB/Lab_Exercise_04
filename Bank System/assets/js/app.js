@@ -1,21 +1,22 @@
 let account1 = {
     firstName: "",
     lastName: "",
-    bankNo: "",
+    bank_number: "",
     balance: ""
 };
+
 
 let account2 = {
     firstName: "",
     lastName: "",
-    bankNo: "",
+    bank_number: "",
     balance: ""
 };
 
 
 account1.firstName = prompt("Enter your first name.");
 account1.lastName = prompt("Enter your second name.");
-account1.bankNo = 2345;
+account1.bank_number = 2345;
 account1.balance = 0;
 account2.balance = 0;
 
@@ -53,7 +54,7 @@ account2.balance = 0;
             } else {
                 account2.firstName = prompt("Enter the recipient's first name:");
                 account2.lastName = prompt("Enter the recipient's last name:");
-                account2.bankNo = prompt("Enter the recipient's Account Number:");
+                account2.bank_number = prompt("Enter the recipient's Account Number:");
                 account2.balance = account2.balance + transferNo;
                 account1.balance = account1.balance - transferNo;
                 alert("Transferred succesfully");
